@@ -10,6 +10,7 @@ license=('LGPL')
 url="http://www.gnome.org"
 makedepends=('autoconf' 'automake' 'gcc' 'pkgconfig' 'gnome-common')
 provides=('libgnome-media')
+groups=('lib')
 
 source=(
         'http://ftp.de.debian.org/debian/pool/main/g/gnome-media/gnome-media_2.30.0.orig.tar.gz'
