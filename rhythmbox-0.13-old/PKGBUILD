@@ -61,7 +61,11 @@ build() {
         --localstatedir=/var \
         --disable-static \
         --enable-python \
-        --enable-musicbrainz 
+        --enable-musicbrainz \
+        --disable-scrollkeeper \
+        --disable-maintainer-mode \
+        --disable-uninstalled-build
+
     make
 }
 
